@@ -1,0 +1,97 @@
+
+.messager-button{
+  background:url(../images/expand-up.png) no-repeat;
+  cursor: pointer;
+  border: none;
+  position: fixed;
+  bottom: 0;
+  right:50px;
+  padding: 10px;
+  width:250px;
+  height: 5%;
+  border: 1px solid #0000ff;
+  box-shadow: -1px 1px #0000ff,
+         -2px 2px #0000ff,
+         -3px 3px #0000ff,
+         -4px 4px #0000ff,
+         -5px 5px #0000ff;
+}
+.messager-button-active{
+  background:url(../images/expand-down.png) no-repeat;
+  cursor: pointer;
+  border: none;
+  width:250px;
+  height: 5%;
+  right:50px;
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+  border: 1px solid #0000ff;
+  box-shadow: -1px 1px #0000ff,
+         -2px 2px #0000ff,
+         -3px 3px #0000ff,
+         -4px 4px #0000ff,
+         -5px 5px #0000ff;
+}
+.conversation-div{
+  width:250px;
+  height: 500px;
+  position:fixed;
+  background-color: #ffffff;
+  right:50px;
+  bottom: 5%;
+  padding: 10px;
+  border: 1px solid #0000ff;
+  border-radius: 25px;
+  box-shadow: -1px 1px #e4e2df,
+         -2px 2px #e4e2df,
+         -3px 3px #e4e2df,
+         -4px 4px #e4e2df,
+         -5px 5px #e4e2df;
+
+}
+.conversation-div-header{
+  background-color: #0000ff;
+  background-color: #0000ff;
+  padding: 5%;
+  color: white;
+  display: flex;
+}
+.conversation-div-title{
+  font-size: 1.5em;
+}
+
+.chat-conversation-element{
+  background-color: #d7ecfd;
+  text-align: left;
+  width: 100%;
+}
+
+.chat-conversation-element:hover{
+  background-color: #008dff;
+  cursor: pointer;
+}
+
+.messager-to-div{
+  text-align: left;
+  position: relative;
+  padding: 4px;
+}
+.messager-topic-div{
+  text-align: left;
+  position: relative;
+  padding: 4px;
+}
+.chat-message-sentbyme{
+  background-color: #d7ecfd;
+  position: relative;
+  left:2px;
+  max-width: 50%;
+}
+
+.chat-message-sentbyother{
+  background-color: #959ab2;
+  position: relative;
+  right:2px;
+  max-width: 50%;
+}
